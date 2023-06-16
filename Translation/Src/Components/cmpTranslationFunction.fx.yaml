@@ -1,0 +1,15 @@
+cmpTranslationFunction As CanvasComponent:
+    getTranslation(Language As String, TranslationKey As String):
+        Language:
+            Default: ="Text"
+        TranslationKey:
+            Default: ="Text"
+        ThisProperty:
+            Default: ="Text"
+    Fill: =RGBA(0, 0, 0, 0)
+    Height: =0
+    Width: =0
+    X: =0
+    Y: =0
+    ZIndex: =1
+
