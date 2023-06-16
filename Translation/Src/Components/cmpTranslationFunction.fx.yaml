@@ -1,14 +1,15 @@
 cmpTranslationFunction As CanvasComponent:
-    getTranslation(Language As String, TranslationKey As String):
-        Language:
+    getTranslation(inLanguage As String, inTranslationKey As String):
+        inLanguage:
             Default: ="Text"
-        TranslationKey:
+        inTranslationKey:
             Default: ="Text"
         ThisProperty:
-            Default: ="Text"
+            Default: =Filter([@Translations],Language=inLanguage)
+    ContentLanguage: =""
     Fill: =RGBA(0, 0, 0, 0)
-    Height: =0
-    Width: =0
+    Height: =100
+    Width: =1000
     X: =0
     Y: =0
     ZIndex: =1

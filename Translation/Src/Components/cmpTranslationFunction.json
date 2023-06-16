@@ -14,15 +14,15 @@
     {
       "Category": 0,
       "DisplayName": "getTranslation",
-      "Hidden": false,
+      "Hidden": true,
       "Name": "getTranslation",
       "PropertyDataTypeKey": "String",
       "PropertyScopeKey": {
         "PropertyScopeRuleNamespaceKey": "5",
         "PropertyScopeRulesKey": [
           {
-            "DisplayName": "getTranslation_Language",
-            "Name": "getTranslation_Language",
+            "DisplayName": "getTranslation_inLanguage",
+            "Name": "getTranslation_inLanguage",
             "PropertyDataTypeKey": "String",
             "ScopeVariableInfo": {
               "DependencyType": "New",
@@ -30,14 +30,14 @@
               "IsRequired": true,
               "ResolveExpands": false,
               "ResolveSelects": false,
-              "ScopeVariableName": "Language"
+              "ScopeVariableName": "inLanguage"
             },
             "Tooltip": "the language of the label to be returned",
             "Type": "{\"Version\":\"1.332\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]}}"
           },
           {
-            "DisplayName": "getTranslation_TranslationKey",
-            "Name": "getTranslation_TranslationKey",
+            "DisplayName": "getTranslation_inTranslationKey",
+            "Name": "getTranslation_inTranslationKey",
             "PropertyDataTypeKey": "String",
             "ScopeVariableInfo": {
               "DependencyType": "New",
@@ -45,7 +45,7 @@
               "IsRequired": true,
               "ResolveExpands": false,
               "ResolveSelects": false,
-              "ScopeVariableName": "TranslationKey"
+              "ScopeVariableName": "inTranslationKey"
             },
             "Tooltip": "the key of the label to be returned",
             "Type": "{\"Version\":\"1.332\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]}}"
@@ -64,7 +64,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638225248187640712",
+  "LastModifiedTimestamp": "638225277236566160",
   "Name": "e696fcfc858048989a4d52d6acdd2699",
   "OverridableProperties": {},
   "Version": "638225190037531092"

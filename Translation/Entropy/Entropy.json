@@ -11,9 +11,11 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "06/16/2023 15:09:23",
+  "HeaderLastSavedDateTimeUTC": "06/16/2023 15:55:34",
   "IsLegacyComponentAllowGlobalScopeCase": false,
-  "LocalConnectionIDReferences": {},
+  "LocalConnectionIDReferences": {
+    "2f5725cd-a2ab-47b1-aef7-e0cd142ae3a6": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/ba6fd4d7de554cfa90be0eb0be472e30\""
+  },
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {},
   "LocalResourceRootPaths": {},
@@ -24,7 +26,9 @@
   "OrderComponentTemplate": {
     "e696fcfc858048989a4d52d6acdd2699": 0
   },
-  "OrderDataSource": {},
+  "OrderDataSource": {
+    "Translations": 0
+  },
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
   "OrderTemplate": {},

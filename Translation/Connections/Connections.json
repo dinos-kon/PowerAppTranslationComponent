@@ -1,1 +1,24 @@
-{}
+{
+  "2f5725cd-a2ab-47b1-aef7-e0cd142ae3a6": {
+    "connectionRef": {
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/u/shgogna/globalperconnector-train1/1.0.1639.3312/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline"
+    },
+    "datasets": {
+      "https://sworddevtenant001.sharepoint.com/sites/EPO-4411/HW": {
+        "dataSources": {
+          "Translations": {
+            "tableName": "e4472706-a769-4d77-b96d-362079b836f3"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Translations"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "2f5725cd-a2ab-47b1-aef7-e0cd142ae3a6"
+  }
+}
