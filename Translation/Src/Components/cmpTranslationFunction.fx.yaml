@@ -10,7 +10,7 @@ cmpTranslationFunction As CanvasComponent:
                 ""
     ContentLanguage: =""
     Fill: =RGBA(0, 0, 0, 0)
-    Height: =500
+    Height: =1
     TranslationSource: |-
         =Table({
             Title: "New", 
@@ -20,7 +20,7 @@ cmpTranslationFunction As CanvasComponent:
             Title: "Neu", 
             Language: "de", 
             TranslationKey: "Neu"})
-    Width: =1000
+    Width: =1
     X: =0
     Y: =0
     ZIndex: =1
