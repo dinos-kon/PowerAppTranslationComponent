@@ -5,13 +5,13 @@
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
     "App": 1,
-    "cmpTranslationFunction": 5,
+    "cmpTranslationFunction": 4,
     "Host": 3,
-    "Screen1": 4
+    "Screen1": 5
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "06/16/2023 15:55:34",
+  "HeaderLastSavedDateTimeUTC": "06/16/2023 16:17:36",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "2f5725cd-a2ab-47b1-aef7-e0cd142ae3a6": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/ba6fd4d7de554cfa90be0eb0be472e30\""
@@ -27,6 +27,7 @@
     "e696fcfc858048989a4d52d6acdd2699": 0
   },
   "OrderDataSource": {
+    "CustomGallerySample": 1,
     "Translations": 0
   },
   "OrderGroupControls": {},
@@ -47,12 +48,18 @@
     "Host": 0,
     "Screen1": 0
   },
-  "ResourcesJsonIndices": {},
+  "ResourcesJsonIndices": {
+    "Image-SampleImage": 0
+  },
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.0233116,
-    "ControlCount": {}
+    "AnalysisLoadTime": 0.0472708,
+    "ControlCount": {
+      "e696fcfc858048989a4d52d6acdd2699": 1,
+      "screen": 1
+    },
+    "DeserializationLoadTime": 1.9044331
   },
   "WasLocalDatabaseReferencesEmpty": true
 }

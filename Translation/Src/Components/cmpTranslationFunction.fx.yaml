@@ -5,10 +5,21 @@ cmpTranslationFunction As CanvasComponent:
         inTranslationKey:
             Default: ="Text"
         ThisProperty:
-            Default: =Filter([@Translations],Language=inLanguage)
+            Default: |-
+                =// Filter([@Translations],Language=inLanguage)
+                ""
     ContentLanguage: =""
     Fill: =RGBA(0, 0, 0, 0)
-    Height: =100
+    Height: =500
+    TranslationSource: |-
+        =Table({
+            Title: "New", 
+            Language: "en", 
+            TranslationKey: "Neu"},
+            {
+            Title: "Neu", 
+            Language: "de", 
+            TranslationKey: "Neu"})
     Width: =1000
     X: =0
     Y: =0
