@@ -16,7 +16,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "06/19/2023 14:22:29",
+  "HeaderLastSavedDateTimeUTC": "06/19/2023 14:24:15",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -37,9 +37,9 @@
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
   "OrderXMLTemplate": {
-    "dropdown": 2,
+    "dropdown": 1,
     "icon": 0,
-    "label": 1
+    "label": 2
   },
   "OverridablePropertiesEntry": {
     "added": {},
@@ -60,8 +60,8 @@
     "cmpMultilingualFunction": 0,
     "exists": 1,
     "Host": 0,
-    "Label1": 0,
-    "Label2": 0,
+    "Label1": 3,
+    "Label2": 4,
     "languageSelection": 2,
     "TranslationsScreen": 0
   },
