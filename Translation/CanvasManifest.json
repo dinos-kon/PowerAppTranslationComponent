@@ -60,7 +60,7 @@
       "fluentv9controlspreview": false,
       "formuladataprefetch": true,
       "formularepair": false,
-      "generatedebugpublishedapp": false,
+      "generatedebugpublishedapp": true,
       "herocontrols": false,
       "improvedmediacapture": false,
       "improvedtabstopbehavior": false,
@@ -131,6 +131,6 @@
     "UserLocale": "en-US"
   },
   "ScreenOrder": [
-    "Screen1"
+    "TranslationsScreen"
   ]
 }

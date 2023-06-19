@@ -1,0 +1,3 @@
+TranslationsScreen As screen:
+    Fill: =Color.Transparent
+

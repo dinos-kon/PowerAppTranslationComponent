@@ -6,12 +6,13 @@
   "ControlUniqueIds": {
     "App": 1,
     "cmpTranslationFunction": 4,
+    "DropdownChoice": 7,
     "Host": 3,
-    "Screen1": 5
+    "TranslationsScreen": 5
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "06/16/2023 16:17:59",
+  "HeaderLastSavedDateTimeUTC": "06/19/2023 09:40:02",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "2f5725cd-a2ab-47b1-aef7-e0cd142ae3a6": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/ba6fd4d7de554cfa90be0eb0be472e30\""
@@ -28,25 +29,30 @@
   },
   "OrderDataSource": {
     "CustomGallerySample": 1,
+    "DropDownSample": 2,
     "Translations": 0
   },
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
-  "OrderXMLTemplate": {},
+  "OrderXMLTemplate": {
+    "dropdown": 0
+  },
   "OverridablePropertiesEntry": {
     "App": {},
     "cmpTranslationFunction": {},
+    "DropdownChoice": {},
     "Host": {},
-    "Screen1": {}
+    "TranslationsScreen": {}
   },
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PCFTemplateEntry": {},
   "PublishOrderIndices": {
     "App": 0,
     "cmpTranslationFunction": 0,
+    "DropdownChoice": 0,
     "Host": 0,
-    "Screen1": 0
+    "TranslationsScreen": 0
   },
   "ResourcesJsonIndices": {
     "Image-SampleImage": 0
@@ -54,12 +60,13 @@
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.0472708,
+    "AnalysisLoadTime": 0.0632922,
     "ControlCount": {
+      "dropdown": 1,
       "e696fcfc858048989a4d52d6acdd2699": 1,
       "screen": 1
     },
-    "DeserializationLoadTime": 1.9044331
+    "DeserializationLoadTime": 2.1953832
   },
   "WasLocalDatabaseReferencesEmpty": true
 }
