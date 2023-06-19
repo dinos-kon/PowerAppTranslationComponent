@@ -7,7 +7,7 @@
   },
   "Properties": {
     "AppCreationSource": "AppFromScratch",
-    "AppDescription": "Provides a translation function",
+    "AppDescription": "Provides multilingual labels function",
     "AppPreviewFlagsMap": {
       "aibuilderserviceenrollment": false,
       "allowmultiplescreensincanvaspages": false,
@@ -78,7 +78,7 @@
       "pdffunction": false,
       "powerfxdecimal": false,
       "projectionmapping": true,
-      "reactformulabar": false,
+      "reactformulabar": true,
       "reliableconcurrent": true,
       "reservedkeywords": false,
       "reverttooldpowerautomate": false,
@@ -115,12 +115,12 @@
     "InstrumentationKey": "",
     "LocalDatabaseReferences": "{}",
     "ManualOfflineProfileId": "",
-    "Name": "Translation Component",
+    "Name": "Multilingual Component",
     "OriginatingVersion": "1.332",
     "ParserErrorCount": 0
   },
   "PublishInfo": {
-    "AppName": "Translation Component",
+    "AppName": "Multilingual Component",
     "BackgroundColor": "rgba(186, 202, 226, 1)",
     "IconColor": "RGBA(255,255,255,1)",
     "IconName": "",

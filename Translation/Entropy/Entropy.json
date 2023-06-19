@@ -1,19 +1,20 @@
 {
   "ComponentIndexes": {
-    "cmpTranslationFunction": 1
+    "cmpMultilingualFunction": 1
   },
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
+    "added": 9,
     "App": 1,
-    "cmpTranslationFunction": 4,
+    "cmpMultilingualFunction": 4,
+    "exists": 10,
     "Host": 3,
-    "Label1": 8,
     "languageSelection": 7,
     "TranslationsScreen": 6
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "06/19/2023 11:28:11",
+  "HeaderLastSavedDateTimeUTC": "06/19/2023 12:26:40",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -35,24 +36,26 @@
   "OrderTemplate": {},
   "OrderXMLTemplate": {
     "dropdown": 1,
-    "label": 0
+    "icon": 0
   },
   "OverridablePropertiesEntry": {
+    "added": {},
     "App": {},
-    "cmpTranslationFunction": {},
+    "cmpMultilingualFunction": {},
+    "exists": {},
     "Host": {},
-    "Label1": {},
     "languageSelection": {},
     "TranslationsScreen": {}
   },
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PCFTemplateEntry": {},
   "PublishOrderIndices": {
+    "added": 0,
     "App": 0,
-    "cmpTranslationFunction": 0,
+    "cmpMultilingualFunction": 0,
+    "exists": 1,
     "Host": 0,
-    "Label1": 0,
-    "languageSelection": 1,
+    "languageSelection": 2,
     "TranslationsScreen": 0
   },
   "ResourcesJsonIndices": {

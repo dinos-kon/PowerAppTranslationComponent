@@ -1,0 +1,52 @@
+cmpMultilingualFunction As CanvasComponent:
+    ContentLanguage: =""
+    Fill: =Color.Transparent
+    getLabel: |
+        =// Filter([@Translations],Language=inLanguage)
+        First(Filter(
+            Self.TranslationSource,
+            TranslationKey=Self.inLabel ,
+            Language= //Self.inLang
+                languageSelection.SelectedText.Value
+        ))
+        .Title
+        
+        //if First is empty
+        // then Patch into en&de the default translationKey as
+    Height: =35
+    inLabel: ="Neu"
+    inLang: ="de"
+    TranslationSource: |-
+        =Table({
+            Title: "New", 
+            Language: "en", 
+            TranslationKey: "Neu"},
+            {
+            Title: "Neu", 
+            Language: "de", 
+            TranslationKey: "Neu"})
+    Width: =300
+    X: =0
+    Y: =0
+    ZIndex: =1
+
+    languageSelection As dropdown:
+        Default: ="de"
+        Height: =35
+        Items: =["de","en"]
+        Size: =21
+        Width: =100
+        X: =200
+        ZIndex: =2
+
+    added As icon.Warning:
+        Height: =35
+        Icon: =Icon.Warning
+        ZIndex: =3
+
+    exists As icon.CheckBadge:
+        Height: =35
+        Icon: =Icon.CheckBadge
+        X: =40
+        ZIndex: =4
+

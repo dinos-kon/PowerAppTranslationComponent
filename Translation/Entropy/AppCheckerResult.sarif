@@ -66,6 +66,18 @@
               "message": {
                 "text": "Error occurred running rule app-InefficientDelayLoading."
               }
+            },
+            {
+              "associatedRule": {
+                "id": "app-InefficientDelayLoading",
+                "index": 1
+              },
+              "descriptor": {
+                "id": "app-InefficientDelayLoading"
+              },
+              "message": {
+                "text": "Error occurred running rule app-InefficientDelayLoading."
+              }
             }
           ]
         }
@@ -76,19 +88,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "cmpTranslationFunction.languageSelection.AccessibleLabel"
+                  "fullyQualifiedName": "cmpMultilingualFunction.languageSelection.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "cmpTranslationFunction.languageSelection.AccessibleLabel",
+                  "fullyQualifiedName": "cmpMultilingualFunction.languageSelection.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "cmpTranslationFunction",
-                "type": "cmpTranslationFunction.languageSelection"
+                "module": "cmpMultilingualFunction",
+                "type": "cmpMultilingualFunction.languageSelection"
               }
             }
           ],
