@@ -63,6 +63,15 @@
       "PropertyDataTypeKey": "Table",
       "Tooltip": "The source with the translation labels",
       "Type": "{\"Version\":\"1.332\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Table\",\"EnumString\":\"\",\"Type\":[{\"Name\":\"Language\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"Title\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"TranslationKey\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]}]}}"
+    },
+    {
+      "Category": 0,
+      "DisplayName": "languageSelected",
+      "Hidden": true,
+      "Name": "languageSelected",
+      "PropertyDataTypeKey": "String",
+      "Tooltip": "The language seleced by the user",
+      "Type": "{\"Version\":\"1.332\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]}}"
     }
   ],
   "FirstParty": true,
@@ -73,7 +82,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638227660359047244",
+  "LastModifiedTimestamp": "638227708879375905",
   "Name": "e696fcfc858048989a4d52d6acdd2699",
   "OverridableProperties": {},
   "Version": "638225190037531092"

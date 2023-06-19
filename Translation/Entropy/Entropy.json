@@ -7,16 +7,15 @@
     "App": 1,
     "cmpTranslationFunction": 4,
     "Host": 3,
+    "Label1": 8,
     "languageSelection": 7,
     "TranslationsScreen": 6
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "06/19/2023 10:07:35",
+  "HeaderLastSavedDateTimeUTC": "06/19/2023 11:28:11",
   "IsLegacyComponentAllowGlobalScopeCase": false,
-  "LocalConnectionIDReferences": {
-    "2f5725cd-a2ab-47b1-aef7-e0cd142ae3a6": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/ba6fd4d7de554cfa90be0eb0be472e30\""
-  },
+  "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {},
   "LocalResourceRootPaths": {},
@@ -28,20 +27,21 @@
     "e696fcfc858048989a4d52d6acdd2699": 0
   },
   "OrderDataSource": {
-    "CustomGallerySample": 1,
-    "DropDownSample": 2,
-    "Translations": 0
+    "CustomGallerySample": 0,
+    "DropDownSample": 1
   },
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
   "OrderXMLTemplate": {
-    "dropdown": 0
+    "dropdown": 1,
+    "label": 0
   },
   "OverridablePropertiesEntry": {
     "App": {},
     "cmpTranslationFunction": {},
     "Host": {},
+    "Label1": {},
     "languageSelection": {},
     "TranslationsScreen": {}
   },
@@ -51,7 +51,8 @@
     "App": 0,
     "cmpTranslationFunction": 0,
     "Host": 0,
-    "languageSelection": 0,
+    "Label1": 0,
+    "languageSelection": 1,
     "TranslationsScreen": 0
   },
   "ResourcesJsonIndices": {

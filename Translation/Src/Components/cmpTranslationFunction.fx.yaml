@@ -7,13 +7,14 @@ cmpTranslationFunction As CanvasComponent:
         ThisProperty:
             Default: |
                 =// Filter([@Translations],Language=inLanguage)
-                First(Filter(Self.TranslationSource,Language=inLanguage,TranslationKey=inTranslationKey)).Title
+                First(Filter(Self.TranslationSource,TranslationKey=inTranslationKey,Language=Self.languageSelected)).Title
                 
                 //if First is empty
                 // then Patch into en&de the default translationKey as
     ContentLanguage: =""
     Fill: =Color.Transparent
     Height: =35
+    languageSelected: =languageSelection.SelectedText.Value
     TranslationSource: |-
         =Table({
             Title: "New", 
@@ -29,10 +30,19 @@ cmpTranslationFunction As CanvasComponent:
     ZIndex: =1
 
     languageSelection As dropdown:
+        ContentLanguage: =languageSelection.SelectedText.Value
+        Default: ="de"
         Height: =35
         Items: =["de","en"]
         Size: =21
         Width: =100
         X: =200
         ZIndex: =2
+
+    Label1 As label:
+        Height: =35
+        Size: =21
+        Text: =cmpTranslationFunction.getTranslation(languageSelection.SelectedText.Value,"Neu")
+        Width: =200
+        ZIndex: =3
 
