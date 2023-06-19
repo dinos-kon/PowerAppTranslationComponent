@@ -21,7 +21,7 @@ cmpMultilingualFunction As CanvasComponent:
     ContentLanguage: =""
     Fill: =Color.Transparent
     getLang: =languageSelection.SelectedText.Value
-    Height: =35
+    Height: =350
     inLabel: ="Text"
     TranslationSource: |-
         =Table({
@@ -57,4 +57,22 @@ cmpMultilingualFunction As CanvasComponent:
         Icon: =Icon.CheckBadge
         X: =40
         ZIndex: =4
+
+    Label1 As label:
+        Height: =70
+        Size: =21
+        Text: |-
+            ="inLang: " & cmpMultilingualFunction.getLang
+        Width: =300
+        Y: =87
+        ZIndex: =5
+
+    Label2 As label:
+        Height: =70
+        Size: =21
+        Text: |-
+            ="inLabel: " & cmpMultilingualFunction.inLabel
+        Width: =300
+        Y: =157
+        ZIndex: =6
 

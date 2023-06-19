@@ -9,12 +9,14 @@
     "cmpMultilingualFunction": 4,
     "exists": 6,
     "Host": 3,
+    "Label1": 10,
+    "Label2": 11,
     "languageSelection": 7,
     "TranslationsScreen": 8
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "06/19/2023 13:43:18",
+  "HeaderLastSavedDateTimeUTC": "06/19/2023 14:22:29",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -35,8 +37,9 @@
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
   "OrderXMLTemplate": {
-    "dropdown": 1,
-    "icon": 0
+    "dropdown": 2,
+    "icon": 0,
+    "label": 1
   },
   "OverridablePropertiesEntry": {
     "added": {},
@@ -44,6 +47,8 @@
     "cmpMultilingualFunction": {},
     "exists": {},
     "Host": {},
+    "Label1": {},
+    "Label2": {},
     "languageSelection": {},
     "TranslationsScreen": {}
   },
@@ -55,6 +60,8 @@
     "cmpMultilingualFunction": 0,
     "exists": 1,
     "Host": 0,
+    "Label1": 0,
+    "Label2": 0,
     "languageSelection": 2,
     "TranslationsScreen": 0
   },
