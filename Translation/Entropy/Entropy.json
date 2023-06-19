@@ -6,13 +6,13 @@
   "ControlUniqueIds": {
     "App": 1,
     "cmpTranslationFunction": 4,
-    "DropdownChoice": 7,
     "Host": 3,
-    "TranslationsScreen": 5
+    "languageSelection": 7,
+    "TranslationsScreen": 6
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "06/19/2023 09:40:02",
+  "HeaderLastSavedDateTimeUTC": "06/19/2023 10:07:35",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "2f5725cd-a2ab-47b1-aef7-e0cd142ae3a6": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/ba6fd4d7de554cfa90be0eb0be472e30\""
@@ -41,8 +41,8 @@
   "OverridablePropertiesEntry": {
     "App": {},
     "cmpTranslationFunction": {},
-    "DropdownChoice": {},
     "Host": {},
+    "languageSelection": {},
     "TranslationsScreen": {}
   },
   "PCFDynamicSchemaForIRRetrievalEntry": {},
@@ -50,8 +50,8 @@
   "PublishOrderIndices": {
     "App": 0,
     "cmpTranslationFunction": 0,
-    "DropdownChoice": 0,
     "Host": 0,
+    "languageSelection": 0,
     "TranslationsScreen": 0
   },
   "ResourcesJsonIndices": {
@@ -60,13 +60,13 @@
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.0632922,
+    "AnalysisLoadTime": 0.0743014,
     "ControlCount": {
       "dropdown": 1,
       "e696fcfc858048989a4d52d6acdd2699": 1,
       "screen": 1
     },
-    "DeserializationLoadTime": 2.1953832
+    "DeserializationLoadTime": 0.6682288
   },
   "WasLocalDatabaseReferencesEmpty": true
 }

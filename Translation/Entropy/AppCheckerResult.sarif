@@ -64,19 +64,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "cmpTranslationFunction.DropdownChoice.AccessibleLabel"
+                  "fullyQualifiedName": "cmpTranslationFunction.languageSelection.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "cmpTranslationFunction.DropdownChoice.AccessibleLabel",
+                  "fullyQualifiedName": "cmpTranslationFunction.languageSelection.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "cmpTranslationFunction",
-                "type": "cmpTranslationFunction.DropdownChoice"
+                "type": "cmpTranslationFunction.languageSelection"
               }
             }
           ],

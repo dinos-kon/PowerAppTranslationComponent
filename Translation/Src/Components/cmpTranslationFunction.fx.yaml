@@ -12,7 +12,7 @@ cmpTranslationFunction As CanvasComponent:
                 //if First is empty
                 // then Patch into en&de the default translationKey as
     ContentLanguage: =""
-    Fill: =RGBA(0, 0, 0, 0)
+    Fill: =Color.Transparent
     Height: =35
     TranslationSource: |-
         =Table({
@@ -23,18 +23,16 @@ cmpTranslationFunction As CanvasComponent:
             Title: "Neu", 
             Language: "de", 
             TranslationKey: "Neu"})
-    Width: =100
+    Width: =300
     X: =0
     Y: =0
     ZIndex: =1
 
-    DropdownChoice As dropdown:
-        Default: ="de"
-        Height: =Parent.Height
-        Items: =["en","de"]
-        Size: =14
-        Tooltip: ="please select your language of preference"
-        Width: =Parent.Width
-        X: =Parent.Width 
-        ZIndex: =1
+    languageSelection As dropdown:
+        Height: =35
+        Items: =["de","en"]
+        Size: =21
+        Width: =100
+        X: =200
+        ZIndex: =2
 
