@@ -1,19 +1,24 @@
 cmpMultilingualFunction As CanvasComponent:
+    getLabel(inLabel As String):
+        inLabel:
+            Default: ="Text"
+        ThisProperty:
+            Default: |
+                =// Filter([@Translations],Language=inLanguage)
+                First(Filter(
+                    Self.TranslationSource,
+                    // Translations,
+                    TranslationKey= inLabel,  //Self.inLabel ,
+                    Language=cmpMultilingualFunctionlanguageSelection.SelectedText.Value
+                        //Self.inLang
+                       // ""// cmpMultilingualFunction.languageSelection.SelectedText.Value
+                ))
+                .Title
+                
+                //if First is empty
+                // then Patch into en&de the default translationKey as
     ContentLanguage: =""
     Fill: =Color.Transparent
-    getLabel: |
-        =// Filter([@Translations],Language=inLanguage)
-        First(Filter(
-            Self.TranslationSource,
-            // Translations,
-            TranslationKey= inLabel,  //Self.inLabel ,
-            Language= //Self.inLang
-                languageSelection.SelectedText.Value
-        ))
-        .Title
-        
-        //if First is empty
-        // then Patch into en&de the default translationKey as
     Height: =35
     TranslationSource: |-
         =Table({
