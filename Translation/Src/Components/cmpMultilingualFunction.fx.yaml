@@ -5,7 +5,8 @@ cmpMultilingualFunction As CanvasComponent:
         =// Filter([@Translations],Language=inLanguage)
         First(Filter(
             Self.TranslationSource,
-            TranslationKey=Self.inLabel ,
+            // Translations,
+            TranslationKey= inLabel,  //Self.inLabel ,
             Language= //Self.inLang
                 languageSelection.SelectedText.Value
         ))
@@ -14,8 +15,6 @@ cmpMultilingualFunction As CanvasComponent:
         //if First is empty
         // then Patch into en&de the default translationKey as
     Height: =35
-    inLabel: ="Neu"
-    inLang: ="de"
     TranslationSource: |-
         =Table({
             Title: "New", 

@@ -4,17 +4,17 @@
   },
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
-    "added": 9,
+    "added": 5,
     "App": 1,
     "cmpMultilingualFunction": 4,
-    "exists": 10,
+    "exists": 6,
     "Host": 3,
     "languageSelection": 7,
-    "TranslationsScreen": 6
+    "TranslationsScreen": 8
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "06/19/2023 12:26:40",
+  "HeaderLastSavedDateTimeUTC": "06/19/2023 12:46:31",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -64,13 +64,14 @@
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.0743014,
+    "AnalysisLoadTime": 0.1024833,
     "ControlCount": {
       "dropdown": 1,
       "e696fcfc858048989a4d52d6acdd2699": 1,
+      "icon": 2,
       "screen": 1
     },
-    "DeserializationLoadTime": 0.6682288
+    "DeserializationLoadTime": 0.6105981
   },
   "WasLocalDatabaseReferencesEmpty": true
 }
