@@ -44,6 +44,7 @@
       "Category": 0,
       "DisplayName": "TranslationSource",
       "Hidden": false,
+      "IsResettable": true,
       "Name": "TranslationSource",
       "PropertyDataTypeKey": "Table",
       "Tooltip": "The source with the translation labels",
@@ -57,6 +58,16 @@
       "PropertyDataTypeKey": "String",
       "Tooltip": "A custom property",
       "Type": "{\"Version\":\"1.332\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]}}"
+    },
+    {
+      "Category": 0,
+      "DisplayName": "inLabel",
+      "Hidden": false,
+      "IsResettable": true,
+      "Name": "inLabel",
+      "PropertyDataTypeKey": "String",
+      "Tooltip": "A custom property",
+      "Type": "{\"Version\":\"1.332\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]}}"
     }
   ],
   "FirstParty": true,
@@ -67,7 +78,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638227766914955748",
+  "LastModifiedTimestamp": "638227786933040268",
   "Name": "e696fcfc858048989a4d52d6acdd2699",
   "OverridableProperties": {},
   "Version": "638225190037531092"

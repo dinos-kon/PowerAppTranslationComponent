@@ -22,6 +22,7 @@ cmpMultilingualFunction As CanvasComponent:
     Fill: =Color.Transparent
     getLang: =languageSelection.SelectedText.Value
     Height: =35
+    inLabel: ="Text"
     TranslationSource: |-
         =Table({
             Title: "New", 
