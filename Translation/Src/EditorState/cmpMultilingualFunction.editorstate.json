@@ -197,6 +197,7 @@
         "Y",
         "ZIndex",
         "getLabel_inLabel",
+        "getLang",
         "ContentLanguage",
         {
           "AFDDataSourceName": "",
@@ -233,6 +234,11 @@
         {
           "Category": "Data",
           "PropertyName": "ContentLanguage",
+          "RuleProviderType": "System"
+        },
+        {
+          "Category": "Data",
+          "PropertyName": "getLang",
           "RuleProviderType": "System"
         },
         {
