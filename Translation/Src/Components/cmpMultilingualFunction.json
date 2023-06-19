@@ -63,7 +63,6 @@
       "Category": 0,
       "DisplayName": "inLabel",
       "Hidden": false,
-      "IsResettable": true,
       "Name": "inLabel",
       "PropertyDataTypeKey": "String",
       "Tooltip": "A custom property",
@@ -78,7 +77,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638227786933040268",
+  "LastModifiedTimestamp": "638227788353137262",
   "Name": "e696fcfc858048989a4d52d6acdd2699",
   "OverridableProperties": {},
   "Version": "638225190037531092"

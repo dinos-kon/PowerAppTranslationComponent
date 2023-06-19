@@ -8,7 +8,7 @@ cmpMultilingualFunction As CanvasComponent:
                 First(Filter(
                     Self.TranslationSource,
                     // Translations,
-                    TranslationKey= inLabel,  //Self.inLabel ,
+                    TranslationKey= Self.inLabel,  //Self.inLabel ,
                     Language= Self.getLang
                         // cmpMultilingualFunctionlanguageSelection.SelectedText.Value
                         //Self.inLang
