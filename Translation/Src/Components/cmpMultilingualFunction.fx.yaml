@@ -71,7 +71,7 @@ cmpMultilingualFunction As CanvasComponent:
         Height: =70
         Size: =21
         Text: |-
-            ="inLabel: " & cmpMultilingualFunction.getLabel("Neu")
+            ="inLabel: '" & cmpMultilingualFunction.getLabel("Neu") &"', '"& Parent.getLabel("Neu") & "'."
         Width: =300
         Y: =157
         ZIndex: =6
