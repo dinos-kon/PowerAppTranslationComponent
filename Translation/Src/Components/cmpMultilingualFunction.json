@@ -58,15 +58,6 @@
       "PropertyDataTypeKey": "String",
       "Tooltip": "A custom property",
       "Type": "{\"Version\":\"1.332\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]}}"
-    },
-    {
-      "Category": 0,
-      "DisplayName": "inLabel",
-      "Hidden": false,
-      "Name": "inLabel",
-      "PropertyDataTypeKey": "String",
-      "Tooltip": "A custom property",
-      "Type": "{\"Version\":\"1.332\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]}}"
     }
   ],
   "FirstParty": true,
@@ -77,7 +68,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638227815743365136",
+  "LastModifiedTimestamp": "638227817669915898",
   "Name": "e696fcfc858048989a4d52d6acdd2699",
   "OverridableProperties": {},
   "Version": "638225190037531092"

@@ -8,7 +8,7 @@ cmpMultilingualFunction As CanvasComponent:
                 First(Filter(
                     Self.TranslationSource,
                     // Translations,
-                    TranslationKey= Self.inLabel,  //Self.inLabel ,
+                    TranslationKey= inLabel,  //Self.inLabel ,
                     Language= Self.getLang
                         // cmpMultilingualFunctionlanguageSelection.SelectedText.Value
                         //Self.inLang
@@ -22,7 +22,6 @@ cmpMultilingualFunction As CanvasComponent:
     Fill: =Color.Transparent
     getLang: =languageSelection.SelectedText.Value
     Height: =350
-    inLabel: ="Text"
     TranslationSource: |-
         =Table({
             Title: "New", 
