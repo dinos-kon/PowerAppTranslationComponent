@@ -57,7 +57,7 @@ cmpMultilingualFunction As CanvasComponent:
             Title: "Neu", 
             Language:{Value: "de"}, 
             TranslationKey: "Neu"})
-    Width: =300
+    Width: =100
     X: =0
     Y: =0
     ZIndex: =1
@@ -67,6 +67,6 @@ cmpMultilingualFunction As CanvasComponent:
         Height: =25
         Items: =["de","en"]
         Width: =70
-        X: =200
+        X: =30
         ZIndex: =1
 
