@@ -23,7 +23,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "06/20/2023 09:31:17",
+  "HeaderLastSavedDateTimeUTC": "06/20/2023 10:58:59",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -75,17 +75,17 @@
     "App": 0,
     "cmpMultilingualFunction": 0,
     "exists": 1,
-    "Gallery": 6,
-    "galleryTemplate1": 7,
+    "Gallery": 5,
+    "galleryTemplate1": 6,
     "Host": 0,
-    "LabelLanguageDetected": 4,
-    "LabelRowsFound": 5,
+    "LabelLanguageDetected": 3,
+    "LabelRowsFound": 4,
     "languageSelection": 2,
-    "NextArrow1": 9,
-    "Rectangle1": 8,
-    "Separator1": 12,
-    "Subtitle1": 11,
-    "Title1": 10,
+    "NextArrow1": 8,
+    "Rectangle1": 7,
+    "Separator1": 11,
+    "Subtitle1": 10,
+    "Title1": 9,
     "TranslationsScreen": 0
   },
   "ResourcesJsonIndices": {
@@ -94,7 +94,7 @@
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.1501519,
+    "AnalysisLoadTime": 0.1608284,
     "ControlCount": {
       "dropdown": 1,
       "e696fcfc858048989a4d52d6acdd2699": 1,
@@ -105,7 +105,7 @@
       "rectangle": 2,
       "screen": 1
     },
-    "DeserializationLoadTime": 0.7179785
+    "DeserializationLoadTime": 0.6404974
   },
   "WasLocalDatabaseReferencesEmpty": true
 }

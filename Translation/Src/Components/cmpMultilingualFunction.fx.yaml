@@ -3,8 +3,26 @@ cmpMultilingualFunction As CanvasComponent:
         inLabel:
             Default: ="Text"
         ThisProperty:
-            Default: |
-                =First(Filter(
+            Default: |-
+                =With(
+                    {
+                        localLabelRecord: First(Filter(
+                            Self.TranslationSource,
+                            // Translations,
+                            TranslationKey= inLabel,  //Self.inLabel ,
+                            Language.Value= Self.getLang
+                        ))
+                    },
+                    If(IsBlankOrError(localLabelRecord),
+                        // Patch( Self.TranslationSource, {Language:{Value:"de"},Title:inLabel,TranslationKey:inLabel} ).Title,
+                        inLabel,
+                        localLabelRecord.Title
+                    )
+                )
+                
+                
+                /*
+                First(Filter(
                     Self.TranslationSource,
                     // Translations,
                     TranslationKey= inLabel,  //Self.inLabel ,
@@ -15,6 +33,14 @@ cmpMultilingualFunction As CanvasComponent:
                 // Set(localLabel, inLabel)
                 //if First is empty
                 // then Patch into en&de the default translationKey as
+                */
+                
+                //Set(MyAccount, Patch(Accounts, First(Account), 'Account Name': "Example name"));
+    onEvent1(eveLabel As String):
+        eveLabel:
+            Default: ="Text"
+        ThisProperty:
+            Default: ="Text"
     Temp1(tmpLabel As String, tmpLang As String):
         tmpLabel:
             Default: ="Text"
