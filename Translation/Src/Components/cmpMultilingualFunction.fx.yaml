@@ -3,49 +3,23 @@ cmpMultilingualFunction As CanvasComponent:
         inLabel:
             Default: ="Text"
         ThisProperty:
-            Default: |
+            Default: |-
                 =With(
                     {
                         localLabelRecord: First(Filter(
                             Self.TranslationSource,
                             // Translations,
-                            TranslationKey= inLabel,  //Self.inLabel ,
-                            Language.Value= Self.getLang
+                            TranslationKey = inLabel, 
+                            Language.Value = Self.getLang
                         ))
                     },
                     If(IsBlankOrError(localLabelRecord),
                         // Patch( Self.TranslationSource, {Language:{Value:"de"},Title:inLabel,TranslationKey:inLabel} ).Title,
+                        // First(ClearCollect(newLocalizedLabels, {Language:{Value:"de"},Title:inLabel,TranslationKey:inLabel})).Title,
                         inLabel,
                         localLabelRecord.Title
                     )
                 )
-                
-                
-                /*
-                First(Filter(
-                    Self.TranslationSource,
-                    // Translations,
-                    TranslationKey= inLabel,  //Self.inLabel ,
-                    Language.Value= Self.getLang
-                ))
-                .Title
-                // Store inLabel
-                // Set(localLabel, inLabel)
-                //if First is empty
-                // then Patch into en&de the default translationKey as
-                */
-    onEvent1(eveLabel As String):
-        eveLabel:
-            Default: ="Text"
-        ThisProperty:
-            Default: ="Text"
-    Temp1(tmpLabel As String, tmpLang As String):
-        tmpLabel:
-            Default: ="Text"
-        tmpLang:
-            Default: ="Text"
-        ThisProperty:
-            Default: ="Text"
     upsertLabel(inLabel As String):
         inLabel:
             Default: ="Text"
@@ -54,14 +28,16 @@ cmpMultilingualFunction As CanvasComponent:
                 =With(
                     {
                         localLabelRecord: First(Filter(
-                            Self.TranslationSource,
-                            // Translations,
-                            TranslationKey= inLabel,  //Self.inLabel ,
-                            Language.Value= Self.getLang
+                            Self.TranslationSource,   // the given translation source
+                            TranslationKey=inLabel,  // incoming function parameter Label ,
+                            Language.Value=Self.getLang // the value of the DropDown control
                         ))
                     },
                     If(IsBlankOrError(localLabelRecord),
-                        Patch( Self.TranslationSource, {Language:{Value:"de"},Title:inLabel,TranslationKey:inLabel} ).Title,
+                        Patch( 
+                            Self.TranslationSource, 
+                            {Language:{Value:"de"},Title:inLabel,TranslationKey:inLabel} 
+                        ).Title,
                         // inLabel,
                         localLabelRecord.Title
                     )
@@ -70,8 +46,7 @@ cmpMultilingualFunction As CanvasComponent:
     ContentLanguage: =""
     Fill: =Color.Transparent
     getLang: =languageSelection.SelectedText.Value
-    Height: =350
-    isDebug: =true
+    Height: =25
     OnReset: =
     TranslationSource: |-
         =Table({
@@ -89,123 +64,10 @@ cmpMultilingualFunction As CanvasComponent:
 
     languageSelection As dropdown:
         Default: ="de"
-        Height: =35
+        Height: =25
         Items: =["de","en"]
-        Size: =21
+        Size: =14
         Width: =100
         X: =200
         ZIndex: =1
-
-    added As icon.Warning:
-        Height: =35
-        Icon: =Icon.Add
-        Visible: =cmpMultilingualFunction.isDebug
-        ZIndex: =2
-
-    exists As icon.CheckBadge:
-        Color: =RGBA(99, 139, 44, 1)
-        Height: =35
-        Icon: =Icon.CheckBadge
-        Visible: |-
-            =cmpMultilingualFunction.isDebug 
-            /* & CountRows (Filter(
-                cmpMultilingualFunction.TranslationSource,
-                TranslationKey= cmpMultilingualFunction.getLabel(cmpMultilingualFunction.
-            ))*/
-        X: =40
-        ZIndex: =3
-
-    LabelLanguageDetected As label:
-        Height: =20
-        Size: =12
-        Text: |-
-            ="inLang: " & cmpMultilingualFunction.getLang
-        Visible: =cmpMultilingualFunction.isDebug
-        Width: =300
-        Y: =37
-        ZIndex: =4
-
-    LabelRowsFound As label:
-        Height: =25
-        Size: =12
-        Text: |-
-            ="Rows found: " &CountRows(cmpMultilingualFunction.TranslationSource)
-        Visible: =cmpMultilingualFunction.isDebug
-        Width: =300
-        Y: =57
-        ZIndex: =6
-
-    "Gallery As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver5.0'":
-        DelayItemLoading: =true
-        Height: =271
-        Items: =cmpMultilingualFunction.TranslationSource
-        Layout: =Layout.Vertical
-        LoadingSpinner: =LoadingSpinner.Data
-        TemplatePadding: =0
-        TemplateSize: =48
-        Width: =300
-        Y: =79
-        ZIndex: =7
-
-        Title1 As label:
-            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
-            Height: =19
-            OnSelect: =Select(Parent)
-            PaddingBottom: =0
-            PaddingLeft: =0
-            PaddingRight: =0
-            PaddingTop: =0
-            Size: =12
-            Text: =ThisItem.Title
-            VerticalAlign: =VerticalAlign.Top
-            Width: =233
-            X: =18
-            Y: =5
-            ZIndex: =2
-
-        Subtitle1 As label:
-            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
-            Height: =24
-            Italic: =true
-            OnSelect: =Select(Parent)
-            PaddingBottom: =0
-            PaddingLeft: =0
-            PaddingRight: =0
-            PaddingTop: =0
-            Size: =11
-            Text: =ThisItem.Language.Value &" '"& ThisItem.TranslationKey&"'"
-            VerticalAlign: =VerticalAlign.Top
-            Width: =233
-            X: =Title1.X
-            Y: =24
-            ZIndex: =3
-
-        NextArrow1 As icon.ChevronRight:
-            AccessibleLabel: =Self.Tooltip
-            Color: =RGBA(166, 166, 166, 1)
-            Height: =48
-            Icon: =Icon.ChevronRight
-            OnSelect: =Select(Parent)
-            PaddingBottom: =16
-            PaddingLeft: =16
-            PaddingRight: =16
-            PaddingTop: =16
-            Tooltip: ="View item details"
-            Width: =49
-            X: =251
-            ZIndex: =4
-
-        Separator1 As rectangle:
-            Height: =8
-            OnSelect: =Select(Parent)
-            Width: =Parent.TemplateWidth
-            Y: =96
-            ZIndex: =5
-
-        Rectangle1 As rectangle:
-            Height: =Parent.TemplateHeight - Separator1.Height
-            OnSelect: =Select(Parent)
-            Visible: =If(ThisItem.IsSelected, true, false)
-            Width: =4
-            ZIndex: =6
 

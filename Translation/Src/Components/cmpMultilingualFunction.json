@@ -60,89 +60,6 @@
       "Type": "{\"Version\":\"1.332\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]}}"
     },
     {
-      "Category": 0,
-      "DisplayName": "isDebug",
-      "Hidden": false,
-      "IsResettable": true,
-      "Name": "isDebug",
-      "PropertyDataTypeKey": "Boolean",
-      "Tooltip": "A custom property",
-      "Type": "{\"Version\":\"1.332\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Boolean\",\"EnumString\":\"\",\"Type\":[]}}"
-    },
-    {
-      "Category": 2,
-      "DisplayName": "Temp1",
-      "Hidden": true,
-      "Name": "Temp1",
-      "PropertyDataTypeKey": "String",
-      "PropertyScopeKey": {
-        "PropertyScopeRuleNamespaceKey": "4",
-        "PropertyScopeRulesKey": [
-          {
-            "DisplayName": "Temp1_tmpLabel",
-            "Name": "Temp1_tmpLabel",
-            "PropertyDataTypeKey": "String",
-            "ScopeVariableInfo": {
-              "DependencyType": "New",
-              "Description": "A parameter",
-              "IsRequired": true,
-              "ResolveExpands": false,
-              "ResolveSelects": false,
-              "ScopeVariableName": "tmpLabel"
-            },
-            "Tooltip": "A parameter",
-            "Type": "{\"Version\":\"1.332\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]}}"
-          },
-          {
-            "DisplayName": "Temp1_tmpLang",
-            "Name": "Temp1_tmpLang",
-            "PropertyDataTypeKey": "String",
-            "ScopeVariableInfo": {
-              "DependencyType": "New",
-              "Description": "A parameter",
-              "IsRequired": false,
-              "ResolveExpands": false,
-              "ResolveSelects": false,
-              "ScopeVariableName": "tmpLang"
-            },
-            "Tooltip": "A parameter",
-            "Type": "{\"Version\":\"1.332\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]}}"
-          }
-        ]
-      },
-      "Tooltip": "A custom property",
-      "Type": "{\"Version\":\"1.332\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]}}"
-    },
-    {
-      "Category": 2,
-      "DisplayName": "onEvent1",
-      "Hidden": false,
-      "Name": "onEvent1",
-      "PropertyDataTypeKey": "String",
-      "PropertyScopeKey": {
-        "PropertyScopeRuleNamespaceKey": "4",
-        "PropertyScopeRulesKey": [
-          {
-            "DisplayName": "onEvent1_eveLabel",
-            "Name": "onEvent1_eveLabel",
-            "PropertyDataTypeKey": "String",
-            "ScopeVariableInfo": {
-              "DependencyType": "New",
-              "Description": "A parameter",
-              "IsRequired": true,
-              "ResolveExpands": false,
-              "ResolveSelects": false,
-              "ScopeVariableName": "eveLabel"
-            },
-            "Tooltip": "A parameter",
-            "Type": "{\"Version\":\"1.332\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]}}"
-          }
-        ]
-      },
-      "Tooltip": "A custom property",
-      "Type": "{\"Version\":\"1.332\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]}}"
-    },
-    {
       "Category": 2,
       "DisplayName": "upsertLabel",
       "Hidden": true,
@@ -180,7 +97,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638228563057544340",
+  "LastModifiedTimestamp": "638228870504992317",
   "Name": "e696fcfc858048989a4d52d6acdd2699",
   "OverridableProperties": {},
   "Version": "638225190037531092"
