@@ -9,7 +9,7 @@ cmpMultilingualFunction As CanvasComponent:
                     Self.TranslationSource,
                     // Translations,
                     TranslationKey= inLabel,  //Self.inLabel ,
-                    Language= Self.getLang
+                    Language.Value= Self.getLang
                         // cmpMultilingualFunctionlanguageSelection.SelectedText.Value
                         //Self.inLang
                        // ""// cmpMultilingualFunction.languageSelection.SelectedText.Value
@@ -25,11 +25,11 @@ cmpMultilingualFunction As CanvasComponent:
     TranslationSource: |-
         =Table({
             Title: "New", 
-            Language: "en", 
+            Language: {Value:"en"}, 
             TranslationKey: "Neu"},
             {
             Title: "Neu", 
-            Language: "de", 
+            Language:{Value: "de"}, 
             TranslationKey: "Neu"})
     Width: =300
     X: =0
@@ -119,7 +119,7 @@ cmpMultilingualFunction As CanvasComponent:
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Text: =ThisItem.Language &" '"& ThisItem.TranslationKey&"'"
+            Text: =ThisItem.Language.Value &" '"& ThisItem.TranslationKey&"'"
             VerticalAlign: =VerticalAlign.Top
             Width: =Title1.Width
             X: =Title1.X
