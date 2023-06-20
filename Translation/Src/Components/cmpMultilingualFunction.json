@@ -141,6 +141,35 @@
       },
       "Tooltip": "A custom property",
       "Type": "{\"Version\":\"1.332\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]}}"
+    },
+    {
+      "Category": 2,
+      "DisplayName": "upsertLabel",
+      "Hidden": true,
+      "Name": "upsertLabel",
+      "PropertyDataTypeKey": "String",
+      "PropertyScopeKey": {
+        "PropertyScopeRuleNamespaceKey": "4",
+        "PropertyScopeRulesKey": [
+          {
+            "DisplayName": "upsertLabel_inLabel",
+            "Name": "upsertLabel_inLabel",
+            "PropertyDataTypeKey": "String",
+            "ScopeVariableInfo": {
+              "DependencyType": "New",
+              "Description": "A parameter",
+              "IsRequired": true,
+              "ResolveExpands": false,
+              "ResolveSelects": false,
+              "ScopeVariableName": "inLabel"
+            },
+            "Tooltip": "A parameter",
+            "Type": "{\"Version\":\"1.332\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]}}"
+          }
+        ]
+      },
+      "Tooltip": "A custom property",
+      "Type": "{\"Version\":\"1.332\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]}}"
     }
   ],
   "FirstParty": true,
@@ -151,7 +180,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638228555222204701",
+  "LastModifiedTimestamp": "638228563057544340",
   "Name": "e696fcfc858048989a4d52d6acdd2699",
   "OverridableProperties": {},
   "Version": "638225190037531092"
