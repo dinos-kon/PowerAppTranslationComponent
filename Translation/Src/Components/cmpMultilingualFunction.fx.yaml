@@ -66,8 +66,7 @@ cmpMultilingualFunction As CanvasComponent:
         Default: ="de"
         Height: =25
         Items: =["de","en"]
-        Size: =14
-        Width: =100
+        Width: =70
         X: =200
         ZIndex: =1
 
