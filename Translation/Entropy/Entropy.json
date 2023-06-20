@@ -8,23 +8,23 @@
     "App": 1,
     "cmpMultilingualFunction": 4,
     "exists": 6,
-    "Gallery1": 13,
-    "galleryTemplate1": 14,
+    "Gallery1": 11,
+    "galleryTemplate1": 12,
     "Host": 3,
-    "Label1": 10,
-    "Label2": 11,
-    "Label3": 12,
+    "Label1": 8,
+    "Label2": 9,
+    "Label3": 10,
     "languageSelection": 7,
-    "NextArrow1": 18,
-    "Rectangle1": 20,
-    "Separator1": 19,
-    "Subtitle1": 17,
-    "Title1": 16,
-    "TranslationsScreen": 8
+    "NextArrow1": 15,
+    "Rectangle1": 13,
+    "Separator1": 17,
+    "Subtitle1": 16,
+    "Title1": 14,
+    "TranslationsScreen": 18
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "06/19/2023 14:39:19",
+  "HeaderLastSavedDateTimeUTC": "06/20/2023 08:36:08",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -97,14 +97,18 @@
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.1024833,
+    "AnalysisLoadTime": 0.1274346,
     "ControlCount": {
       "dropdown": 1,
       "e696fcfc858048989a4d52d6acdd2699": 1,
-      "icon": 2,
+      "gallery": 1,
+      "galleryTemplate": 1,
+      "icon": 3,
+      "label": 5,
+      "rectangle": 2,
       "screen": 1
     },
-    "DeserializationLoadTime": 0.6105981
+    "DeserializationLoadTime": 0.9650268
   },
   "WasLocalDatabaseReferencesEmpty": true
 }
